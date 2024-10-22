@@ -1,5 +1,5 @@
 
-_lvk=$(wget -qO- https://raw.githubusercontent.com/modderajuda/donomodderajuda/main/versao)
+_lvk=$(wget -qO- https://raw.githubusercontent.com/RPful/mod/refs/heads/main/versao)
 IP=$(wget -qO- ipv4.icanhazip.com)
 IP2=$(wget -qO- http://whatismyip.akamai.com/)
 [[ "$IP" != "$IP2" ]] && ipdovps="$IP2" || ipdovps="$IP"
